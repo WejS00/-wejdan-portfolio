@@ -1,0 +1,152 @@
+[
+  {
+    "id": "splunk",
+    "tag": "Detection",
+    "title": "From logs to visibility",
+    "ar": "من السجلات إلى رؤية أوضح",
+    "tool": "Splunk · SPL",
+    "result": "2 dashboards",
+    "resultAr": "لوحتان لتحليل السجلات",
+    "goal": "Organize log data into dashboards that support analysis.",
+    "goalAr": "تنظيم بيانات السجلات في لوحات تساعد على التحليل.",
+    "method": "Built log-analysis dashboards using Splunk and SPL.",
+    "methodAr": "بناء لوحات لتحليل السجلات باستخدام Splunk ولغة SPL.",
+    "outcome": "Completed two dashboards for log analysis.",
+    "outcomeAr": "إنجاز لوحتين لتحليل السجلات.",
+    "limit": "Dashboard construction is confirmed. Log sources, query examples and detection-performance measurements are not included.",
+    "limitAr": "المؤكد هو بناء اللوحات؛ لا تتضمن هذه الصفحة مصادر السجلات أو الاستعلامات أو قياسات أداء الكشف.",
+    "flow": [
+      "Log data",
+      "SPL analysis",
+      "Dashboard views"
+    ]
+  },
+  {
+    "id": "snort",
+    "tag": "Detection",
+    "title": "Detection rules that alert",
+    "ar": "قواعد كشف تولّد التنبيهات",
+    "tool": "Snort",
+    "result": "10 working rules",
+    "resultAr": "10 قواعد تعمل",
+    "goal": "Generate alerts when specified target activity occurs.",
+    "goalAr": "توليد تنبيهات عند حدوث النشاط المستهدف.",
+    "method": "Wrote Snort detection rules and tested their ability to generate alerts for the target activity.",
+    "methodAr": "كتابة قواعد Snort واختبار قدرتها على توليد التنبيهات للنشاط المستهدف.",
+    "outcome": "All 10 rules generated the intended alerts in testing.",
+    "outcomeAr": "ولّدت القواعد العشر التنبيهات المطلوبة عند الاختبار.",
+    "limit": "Successful alert generation does not establish a false-positive rate or production detection coverage. Neither is claimed here.",
+    "limitAr": "نجاح توليد التنبيه لا يثبت معدل الإنذارات الكاذبة أو تغطية بيئة إنتاجية؛ لم تُقَس هذه النتائج هنا.",
+    "flow": [
+      "Target activity",
+      "Snort rule",
+      "Detection alert"
+    ]
+  },
+  {
+    "id": "malware",
+    "tag": "Analysis",
+    "title": "Examining malicious behavior",
+    "ar": "تحليل سلوك البرمجيات الخبيثة",
+    "tool": "FLOSS · PEstudio · DIE · ANY.RUN · VirusTotal",
+    "result": "Static + dynamic analysis",
+    "resultAr": "تحليل ساكن وديناميكي",
+    "goal": "Examine malware characteristics and runtime behavior.",
+    "goalAr": "فحص خصائص البرمجيات الخبيثة وسلوكها أثناء التشغيل.",
+    "method": "Analyzed samples sourced from MalwareBazaar using static and dynamic methods with the listed tools.",
+    "methodAr": "تحليل عينات مصدرها MalwareBazaar بأساليب ساكنة وديناميكية باستخدام الأدوات المذكورة.",
+    "outcome": "Completed analyses of multiple malware samples; no sample count is claimed.",
+    "outcomeAr": "إتمام تحليل عدة عينات خبيثة دون تحديد عدد غير موثق.",
+    "limit": "No samples, hashes or live indicators are distributed. Sample-level findings are not included.",
+    "limitAr": "لا تُنشر عينات أو بصمات ملفات أو مؤشرات حية أو نتائج تفصيلية لكل عينة.",
+    "flow": [
+      "Sample characteristics",
+      "Static analysis",
+      "Observed behavior"
+    ]
+  },
+  {
+    "id": "attack",
+    "tag": "Analysis",
+    "title": "Mapping behavior to ATT&CK",
+    "ar": "ربط السلوك بإطار ATT&CK",
+    "tool": "MITRE ATT&CK Navigator",
+    "result": "Map + threat profile",
+    "resultAr": "خريطة وملف تهديد",
+    "goal": "Connect observed threat behavior to tactics and techniques.",
+    "goalAr": "ربط سلوك التهديد بالتكتيكات والتقنيات المناسبة.",
+    "method": "Used MITRE ATT&CK Navigator to map behavior and prepare an accompanying threat profile.",
+    "methodAr": "استخدام Navigator لربط السلوك وإعداد ملف تهديد مرافق.",
+    "outcome": "Completed an ATT&CK map and a threat profile.",
+    "outcomeAr": "إنجاز خريطة ATT&CK وملف تهديد.",
+    "limit": "Technique counts and attribution to a specific actor are not claimed. The original map is not attached.",
+    "limitAr": "لا يُذكر عدد تقنيات غير مؤكد أو تُنسب الحادثة إلى جهة بعينها، والخريطة الأصلية غير مرفقة.",
+    "flow": [
+      "Threat behavior",
+      "ATT&CK mapping",
+      "Threat profile"
+    ]
+  },
+  {
+    "id": "thehive",
+    "tag": "Response",
+    "title": "An incident in one case",
+    "ar": "توثيق حادثة في قضية موحدة",
+    "tool": "TheHive",
+    "result": "1 training case",
+    "resultAr": "قضية تدريبية واحدة",
+    "goal": "Document a training incident scenario in a case-management platform.",
+    "goalAr": "توثيق سيناريو حادثة تدريبية داخل منصة لإدارة القضايا.",
+    "method": "Used TheHive to create and document one incident-scenario case.",
+    "methodAr": "استخدام TheHive لإنشاء وتوثيق قضية واحدة لسيناريو حادثة.",
+    "outcome": "Completed one training incident case.",
+    "outcomeAr": "إتمام قضية حادثة تدريبية واحدة.",
+    "limit": "This is training experience. No production incident containment or response-time improvement is claimed.",
+    "limitAr": "هذه تجربة تدريبية؛ لا يُدّعى احتواء حادثة إنتاجية أو تحقيق تحسن مقاس في زمن الاستجابة.",
+    "flow": [
+      "Training scenario",
+      "Case documentation",
+      "Case record"
+    ]
+  },
+  {
+    "id": "python",
+    "tag": "Response",
+    "title": "IOC checks and alerting",
+    "ar": "فحص المؤشرات والتنبيه",
+    "tool": "Python · VirusTotal API",
+    "result": "2 working playbooks",
+    "resultAr": "مسارا أتمتة يعملان",
+    "goal": "Automate IOC checking and notification when an IOC is classified as malicious.",
+    "goalAr": "أتمتة فحص مؤشرات الاختراق والتنبيه عند تصنيف المؤشر خبيثًا.",
+    "method": "Built one Python playbook to check an IOC through the VirusTotal API and a second playbook to send a malicious-IOC alert.",
+    "methodAr": "بناء مسار Python لفحص المؤشر عبر VirusTotal API، ومسار ثانٍ لإرسال تنبيه عند اكتشاف مؤشر خبيث.",
+    "outcome": "Completed two working playbooks without SIEM integration.",
+    "outcomeAr": "إتمام مسارين يعملان دون تكامل مع نظام SIEM.",
+    "limit": "No SIEM integration, production SOAR deployment or automated blocking is claimed. API keys and source files are not published.",
+    "limitAr": "لا يُدّعى تكامل مع SIEM أو نشر منصة SOAR إنتاجية أو حظر آلي. لا تُنشر مفاتيح API أو ملفات المصدر.",
+    "flow": [
+      "IOC input",
+      "Reputation check",
+      "Malicious-IOC alert"
+    ]
+  },
+  {
+    "id": "vulnerability",
+    "tag": "Assessment",
+    "title": "Vulnerability assessment",
+    "ar": "تقييم الثغرات",
+    "tool": "Isolated lab",
+    "result": "Lab assessment",
+    "resultAr": "تقييم داخل مختبر",
+    "goal": "Vulnerability assessment in an isolated lab.",
+    "goalAr": "تقييم ثغرات في مختبر معزول.",
+    "method": "Conducted a vulnerability assessment in an isolated lab.",
+    "methodAr": "تنفيذ تقييم ثغرات في مختبر معزول.",
+    "outcome": "The public scope is limited to this general description.",
+    "outcomeAr": "يقتصر نطاق العرض على هذا الوصف العام.",
+    "limit": "Tools, targets, vulnerability counts and findings are withheld. The report awaits supervisor approval.",
+    "limitAr": "لا تُعرض الأدوات أو الأهداف أو أعداد الثغرات أو نتائجها. التقرير بانتظار موافقة المشرف.",
+    "flow": []
+  }
+]
